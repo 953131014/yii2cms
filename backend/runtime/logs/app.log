@@ -1,0 +1,2768 @@
+2018-11-29 08:08:57 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Unable to locate message source for category 'easyii'.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\i18n\I18N.php:201
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\i18n\I18N.php(89): yii\i18n\I18N->getMessageSource('easyii')
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php(526): yii\i18n\I18N->translate('easyii', 'Welcome', Array, 'en-US')
+#2 D:\phpStudy\WWW\miniclecss\backend\views\site\index.php(2): yii\BaseYii::t('easyii', 'Welcome')
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): require('D:\\phpStudy\\WWW...')
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\SiteController))
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#7 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+2018-11-29 08:08:57 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2660'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4208'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543478937.1117
+    'REQUEST_TIME' => 1543478937
+]
+2018-11-29 08:09:37 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\easyii\assets\AdminAsset' not found' in D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php:6
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#3 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\SiteController->actionIndex()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-11-29 08:09:37 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2660'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4270'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543478977.8026
+    'REQUEST_TIME' => 1543478977
+]
+2018-11-29 08:11:54 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Unable to locate message source for category 'easyii'.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\i18n\I18N.php:201
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\i18n\I18N.php(89): yii\i18n\I18N->getMessageSource('easyii')
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php(526): yii\i18n\I18N->translate('easyii', 'Control Panel', Array, 'en-US')
+#2 D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php(14): yii\BaseYii::t('easyii', 'Control Panel')
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): require('D:\\phpStudy\\WWW...')
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\SiteController))
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<p>Welcome to c...')
+#7 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+2018-11-29 08:11:54 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2660'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4514'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479114.508
+    'REQUEST_TIME' => 1543479114
+]
+2018-11-29 08:13:07 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ',' or ';'' in D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php:14
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#2 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\SiteController->actionIndex()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#9 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-11-29 08:13:07 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2748'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4623'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479187.6258
+    'REQUEST_TIME' => 1543479187
+]
+2018-11-29 08:13:19 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php:37
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#3 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\SiteController->actionIndex()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-11-29 08:13:19 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2748'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4643'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479199.4628
+    'REQUEST_TIME' => 1543479199
+]
+2018-11-29 08:14:16 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant IS_ROOT - assumed 'IS_ROOT'' in D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php:42
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#3 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\SiteController->actionIndex()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-11-29 08:14:16 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2748'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4727'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479256.8006
+    'REQUEST_TIME' => 1543479256
+]
+2018-11-29 08:20:16 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\assets\AdminAsset' not found' in D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php:6
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#3 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): frontend\controllers\SiteController->actionIndex()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-11-29 08:20:16 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2748'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5285'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479616.4862
+    'REQUEST_TIME' => 1543479616
+]
+2018-11-29 08:20:32 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\InvalidArgumentException] exception 'yii\base\InvalidArgumentException' with message 'Invalid path alias: @easyii/media' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetBundle.php(135): yii\BaseYii::getAlias('@easyii/media')
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('backend\\assets\\...', Array, Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('backend\\assets\\...', Array, Array)
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetManager.php(266): yii\BaseYii::createObject(Array)
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('backend\\assets\\...', Array, true)
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('backend\\assets\\...')
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('backend\\assets\\...')
+#10 D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php(6): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): require('D:\\phpStudy\\WWW...')
+#12 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#13 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\SiteController))
+#14 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<p>Welcome to c...')
+#15 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#20 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#21 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2018-11-29 08:20:32 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5324'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479632.8267
+    'REQUEST_TIME' => 1543479632
+]
+2018-11-29 08:20:56 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\InvalidArgumentException] exception 'yii\base\InvalidArgumentException' with message 'Invalid path alias: @media' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetBundle.php(135): yii\BaseYii::getAlias('@media')
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('backend\\assets\\...', Array, Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('backend\\assets\\...', Array, Array)
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetManager.php(266): yii\BaseYii::createObject(Array)
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('backend\\assets\\...', Array, true)
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('backend\\assets\\...')
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('backend\\assets\\...')
+#10 D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php(6): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): require('D:\\phpStudy\\WWW...')
+#12 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#13 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\SiteController))
+#14 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<p>Welcome to c...')
+#15 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#20 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#21 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2018-11-29 08:20:55 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5360'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479655.9213
+    'REQUEST_TIME' => 1543479655
+]
+2018-11-29 08:22:52 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\InvalidArgumentException] exception 'yii\base\InvalidArgumentException' with message 'Invalid path alias: @media' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetBundle.php(135): yii\BaseYii::getAlias('@media')
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\web\AssetBundle->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('backend\\assets\\...', Array, Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('backend\\assets\\...', Array, Array)
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetManager.php(266): yii\BaseYii::createObject(Array)
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('backend\\assets\\...', Array, true)
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('backend\\assets\\...')
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('backend\\assets\\...')
+#10 D:\phpStudy\WWW\miniclecss\backend\views\layouts\main.php(6): yii\web\AssetBundle::register(Object(yii\web\View))
+#11 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): require('D:\\phpStudy\\WWW...')
+#12 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#13 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\SiteController))
+#14 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<p>Welcome to c...')
+#15 D:\phpStudy\WWW\miniclecss\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#20 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#21 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2018-11-29 08:22:52 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5554'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479772.2638
+    'REQUEST_TIME' => 1543479772
+]
+2018-11-29 08:23:15 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/settings".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/settings', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:15 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/settings'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsettings'
+    'QUERY_STRING' => 'r=admin%2Fsettings'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479795.5551
+    'REQUEST_TIME' => 1543479795
+]
+2018-11-29 08:23:17 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/admins".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/admins', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:17 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/admins'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fadmins'
+    'QUERY_STRING' => 'r=admin%2Fadmins'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsettings'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479797.4623
+    'REQUEST_TIME' => 1543479797
+]
+2018-11-29 08:23:18 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/modules".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/modules', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:18 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/modules'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fmodules'
+    'QUERY_STRING' => 'r=admin%2Fmodules'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fadmins'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479798.3543
+    'REQUEST_TIME' => 1543479798
+]
+2018-11-29 08:23:19 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:19 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fmodules'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479799.5403
+    'REQUEST_TIME' => 1543479799
+]
+2018-11-29 08:23:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/admins".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/admins', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/admins'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fadmins'
+    'QUERY_STRING' => 'r=admin%2Fadmins'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsystem'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479800.0087
+    'REQUEST_TIME' => 1543479800
+]
+2018-11-29 08:23:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/modules".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/modules', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/modules'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fmodules'
+    'QUERY_STRING' => 'r=admin%2Fmodules'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fadmins'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479800.4247
+    'REQUEST_TIME' => 1543479800
+]
+2018-11-29 08:23:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/settings".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/settings', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/settings'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsettings'
+    'QUERY_STRING' => 'r=admin%2Fsettings'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5580'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fmodules'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479800.806
+    'REQUEST_TIME' => 1543479800
+]
+2018-11-29 08:23:31 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/settings".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/settings', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:31 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/settings'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsettings'
+    'QUERY_STRING' => 'r=admin%2Fsettings'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5616'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fmodules'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479811.7964
+    'REQUEST_TIME' => 1543479811
+]
+2018-11-29 08:23:38 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:23:38 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5617'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsettings'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479818.6614
+    'REQUEST_TIME' => 1543479818
+]
+2018-11-29 08:25:52 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:25:52 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5819'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsettings'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479952.7126
+    'REQUEST_TIME' => 1543479952
+]
+2018-11-29 08:25:54 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:25:54 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5825'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsystem'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479954.6685
+    'REQUEST_TIME' => 1543479954
+]
+2018-11-29 08:25:57 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:25:57 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2752'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '5825'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsystem'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543479957.0583
+    'REQUEST_TIME' => 1543479957
+]
+2018-11-29 08:29:04 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:29:04 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2628'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '6138'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsystem'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543480144.8567
+    'REQUEST_TIME' => 1543480144
+]
+2018-11-29 08:29:06 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/system".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/system', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-11-29 08:29:06 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admin/system'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2628'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=admin%2Fsystem'
+    'QUERY_STRING' => 'r=admin%2Fsystem'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '6144'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/web/index.php?r=admin%2Fsystem'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1543480146.1551
+    'REQUEST_TIME' => 1543480146
+]
+2018-11-29 08:54:51 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Controller' not found' in D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(637): yii\BaseYii::autoload()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(637): ::spl_autoload_call()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(637): ::class_exists()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#7 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-11-29 08:54:51 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '8976'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481691.7596
+    'REQUEST_TIME' => 1543481691
+]
+2018-11-29 08:56:09 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Unable to locate message source for category 'easyii'.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\i18n\I18N.php:201
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\i18n\I18N.php(89): yii\i18n\I18N->getMessageSource('easyii')
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\BaseYii.php(526): yii\i18n\I18N->translate('easyii', 'System', Array, 'en-US')
+#2 D:\phpStudy\WWW\miniclecss\backend\views\system\index.php(5): yii\BaseYii::t('easyii', 'System')
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): require('D:\\phpStudy\\WWW...')
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(backend\controllers\SystemController))
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\SystemController))
+#7 D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php(14): yii\base\Controller->render('index')
+#8 [internal function]: backend\controllers\SystemController->actionIndex()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('system/index', Array)
+#13 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#15 {main}
+2018-11-29 08:56:09 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9090'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481769.0707
+    'REQUEST_TIME' => 1543481769
+]
+2018-11-29 08:57:07 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\easyii\models\Setting' not found' in D:\phpStudy\WWW\miniclecss\backend\views\system\index.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render()
+#3 D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php(14): yii\base\Controller->render()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SystemController->actionIndex()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-11-29 08:57:07 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9193'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481827.2671
+    'REQUEST_TIME' => 1543481827
+]
+2018-11-29 08:57:21 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\models\Setting' not found' in D:\phpStudy\WWW\miniclecss\backend\views\system\index.php:8
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render()
+#3 D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php(14): yii\base\Controller->render()
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SystemController->actionIndex()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#11 {main}
+2018-11-29 08:57:21 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9213'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481841.3644
+    'REQUEST_TIME' => 1543481841
+]
+2018-11-29 08:58:53 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\helpers\Data' not found' in D:\phpStudy\WWW\miniclecss\backend\models\Setting.php:56
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): ::unknown()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render()
+#4 D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php(14): yii\base\Controller->render()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SystemController->actionIndex()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#11 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#12 {main}
+2018-11-29 08:58:53 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9353'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481933.7918
+    'REQUEST_TIME' => 1543481933
+]
+2018-11-29 08:59:14 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\models\Data' not found' in D:\phpStudy\WWW\miniclecss\backend\models\Setting.php:54
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): ::unknown()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render()
+#4 D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php(14): yii\base\Controller->render()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SystemController->actionIndex()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#11 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#12 {main}
+2018-11-29 08:59:14 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9385'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481954.3978
+    'REQUEST_TIME' => 1543481954
+]
+2018-11-29 08:59:51 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\models\Data' not found' in D:\phpStudy\WWW\miniclecss\backend\models\Setting.php:54
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(336): ::unknown()
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#2 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render()
+#4 D:\phpStudy\WWW\miniclecss\backend\controllers\SystemController.php(14): yii\base\Controller->render()
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): backend\controllers\SystemController->actionIndex()
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#8 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#9 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#11 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#12 {main}
+2018-11-29 08:59:51 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2680'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9456'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543481991.3871
+    'REQUEST_TIME' => 1543481991
+]
+2018-11-30 01:54:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::desc()' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\backend\controllers\AdminsController.php(16): yii\base\Component->__call('desc', Array)
+#1 D:\phpStudy\WWW\miniclecss\backend\controllers\AdminsController.php(16): yii\db\ActiveQuery->desc()
+#2 [internal function]: backend\controllers\AdminsController->actionIndex()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admins/index', Array)
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#9 {main}
+2018-11-30 01:54:20 [127.0.0.1][-][rkord16p72jrb2ui1406anrqm6][info][application] $_GET = [
+    'r' => 'admins/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr\",\"86400\"]\";}'
+    'PHPSESSID' => '3q2fpdjm724j9sn8957n83hto6'
+    '_csrf' => '846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ\";}'
+    'advanced-frontend' => 'rkord16p72jrb2ui1406anrqm6'
+    '_csrf-frontend' => '03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"YwzrYGLdmhDrPbE0pF6L0doTdaptkkir\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2276'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=admins%2Findex'
+    'QUERY_STRING' => 'r=admins%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '4950'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_identity=e41e496be714d1f6f4e800eb4080123a0c79ef622cd498402d3f0d65e6adebd9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22AGCnuEAmnpdBiSFAMhKwoKoFMZQNMQkr%22%2C%2286400%22%5D%22%3B%7D; PHPSESSID=3q2fpdjm724j9sn8957n83hto6; _csrf=846f08078ea9a1d490da41aaf72be4f76920e375f24891bc67ccdd3f13b68e5aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CmV8v9YiNJhKtU06Azc0d76oSkZhpiJ%22%3B%7D; advanced-frontend=rkord16p72jrb2ui1406anrqm6; _csrf-frontend=03b7d0367ca9995704c05183b0fca3adda4694d4a7b31553f2a84da297a09675a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22YwzrYGLdmhDrPbE0pF6L0doTdaptkkir%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/index.php?r=system%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543542859.9897
+    'REQUEST_TIME' => 1543542859
+]
+2018-12-03 08:49:18 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::desc()' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\backend\controllers\AdminsController.php(16): yii\base\Component->__call('desc', Array)
+#1 D:\phpStudy\WWW\miniclecss\backend\controllers\AdminsController.php(16): yii\db\ActiveQuery->desc()
+#2 [internal function]: backend\controllers\AdminsController->actionIndex()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admins/index', Array)
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#9 {main}
+2018-12-03 08:49:18 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][info][application] $_GET = [
+    'r' => 'admins/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '25fuvquf8k6oduag2h1iqgtv52'
+    '_csrf-frontend' => 'dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=admins%2Findex'
+    'QUERY_STRING' => 'r=admins%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '1740'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=25fuvquf8k6oduag2h1iqgtv52; _csrf-frontend=dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/index.php?r=system%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543826958.7
+    'REQUEST_TIME' => 1543826958
+]
+2018-12-03 08:50:09 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "modules/index".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('modules/index', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-03 08:50:09 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][info][application] $_GET = [
+    'r' => 'modules/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '25fuvquf8k6oduag2h1iqgtv52'
+    '_csrf-frontend' => 'dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=modules%2Findex'
+    'QUERY_STRING' => 'r=modules%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '1881'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=25fuvquf8k6oduag2h1iqgtv52; _csrf-frontend=dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/index.php?r=system%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543827009.3141
+    'REQUEST_TIME' => 1543827009
+]
+2018-12-03 08:50:10 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\ActiveQuery::desc()' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\backend\controllers\AdminsController.php(16): yii\base\Component->__call('desc', Array)
+#1 D:\phpStudy\WWW\miniclecss\backend\controllers\AdminsController.php(16): yii\db\ActiveQuery->desc()
+#2 [internal function]: backend\controllers\AdminsController->actionIndex()
+#3 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#6 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admins/index', Array)
+#7 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#9 {main}
+2018-12-03 08:50:10 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][info][application] $_GET = [
+    'r' => 'admins/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '25fuvquf8k6oduag2h1iqgtv52'
+    '_csrf-frontend' => 'dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=admins%2Findex'
+    'QUERY_STRING' => 'r=admins%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '1881'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=25fuvquf8k6oduag2h1iqgtv52; _csrf-frontend=dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/index.php?r=modules%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543827010.5723
+    'REQUEST_TIME' => 1543827010
+]
+2018-12-03 08:50:12 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "modules/index".' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('modules/index', Array)
+#1 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\phpStudy\WWW\miniclecss\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\miniclecss\backend\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-03 08:50:12 [127.0.0.1][-][25fuvquf8k6oduag2h1iqgtv52][info][application] $_GET = [
+    'r' => 'modules/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '25fuvquf8k6oduag2h1iqgtv52'
+    '_csrf-frontend' => 'dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\tortoisesvn\\bin;D:\\phpStudy\\php\\php-5.5.38;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\nodejs\\;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\fpc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fpc\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;D:\\phpStudy\\php\\php-5.5.38;C:\\Users\\fpc\\AppData\\Roaming\\npm;D:\\Java\\jdk1.8.0_191\\bin;D:\\phpStudy\\MySQL\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/backend/index.php'
+    'REQUEST_URI' => '/backend/index.php?r=modules%2Findex'
+    'QUERY_STRING' => 'r=modules%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '1882'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/miniclecss/backend/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/miniclecss'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.1.3'
+    'SERVER_NAME' => '127.0.1.3'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=25fuvquf8k6oduag2h1iqgtv52; _csrf-frontend=dbcf8fdc7716df39c7d120c222b486b5d213bfac67c647e80dfa191d46364c59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22KBZ9S7wfWTFlCfa0w6VpB85onEhbboe1%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'http://127.0.1.3/backend/index.php?r=system%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => '127.0.1.3'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/index.php'
+    'REQUEST_TIME_FLOAT' => 1543827012.2199
+    'REQUEST_TIME' => 1543827012
+]
